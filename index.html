@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>BTD</title>
+        <link href="styles/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="bar">
+            <h1 id="hp">100</h1>
+            <h1 id="balance"></h1>
+            <h1 id="round">1</h1>
+        </div>
+
+        <canvas id="canvas" height="800" width="1600"></canvas>
+        <div class="cards">
+            <div class="card">
+                <img src="./assets/sniper.png" />
+                <div class="stats">
+                    <h2>Range: 500</h2>
+                    <h2>Damage: 5</h2>
+                    <h2>Fire Rate: 1/s</h2>
+                </div>
+                <button id="sniper" class="buy">Buy</button>
+            </div>
+            <div class="card">
+                <img src="./assets/cannon.png" />
+                <div class="stats">
+                    <h2>Range: 150</h2>
+                    <h2>Damage: 10</h2>
+                    <h2>Fire Rate: 1/s</h2>
+                </div>
+                <button id="cannon" class="buy">Buy</button>
+            </div>
+            <div class="card">
+                <img src="./assets/superman.png" />
+                <div class="stats">
+                    <h2>Range: 150</h2>
+                    <h2>Damage: 1</h2>
+                    <h2>Fire Rate: 12/s</h2>
+                </div>
+                <button id="superman" class="buy">Buy</button>
+            </div>
+        </div>
+    </body>
+    <script type="module" src="./scripts/script.js"></script>
+</html>
